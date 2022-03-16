@@ -5,6 +5,9 @@ Uses PlatformIO, compiling for Arduino Uno / Uno Clones
 Utilizes the FastLED library for controlling the light strip.
 The FastLED stuff can be torn out if you want to use the serial output to demonstrate something.
 
+This code is also, admittedly, dirty.  It was originally planned to simply be a for fun exercise, and I didn't plan to upload it anywhere.
+I'm also no expert when it comes to electrical engineering and using a Shift Register, so you could probably do a better job just hooking the clk a actual clock signal.
+
 The setup is a little complicated.  I'd advise you to google the NES controller pinout, hooking up 5v and Ground to the respective pins.
 clk latch and data are all defined in the program and should be fine to switch between any pin, though I might be wrong since I did this project a few months ago.
 Otherwise, there shouldn't be any issue.
